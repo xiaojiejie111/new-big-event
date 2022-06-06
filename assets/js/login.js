@@ -48,8 +48,9 @@ $(function(){
                 }
                 layer.msg('登录成功')
                 localStorage.setItem('token',res.token)
-                location.href='/indwx.html'
+                location.href='/index.html'
            }
         })
     })
+    
 })
